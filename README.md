@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ## サーバーの起動
 
 ```bash
-uvicorn main:app --reload
+uvicorn src.main:app --reload
 ```
 
 ## APIエンドポイント
@@ -31,5 +31,5 @@ uvicorn main:app --reload
 ## テストの実行
 
 ```bash
-pytest test_main.py -v
+pytest tests/test_main.py -v
 ```
